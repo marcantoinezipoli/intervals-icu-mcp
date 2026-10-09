@@ -47,4 +47,4 @@ USER 65534:65534
 EXPOSE 8080
 
 ENTRYPOINT ["/intervals-icu-mcp"]
-CMD ["--transport", "streamable", "--address", "0.0.0.0:8080"]
+CMD ["--transport", "streamable", "--address", "0.0.0.0:8080", "--github-client-id", "Ov23liPtU2RfqgViTNRS", "--auth-issuer", "https://intervals-icu-mcp-1z4c.onrender.com", "--allowed-users", "marcantoinezipoli"]
